@@ -6,7 +6,7 @@ public class Box1 extends Box{
         /*this.length = 10;
         this.width = 10;
         this.height = 10;*/
-        super(10,10,10);
+        super(10,10,10);//只要有呼叫到父類別的建構子，編譯就會通過
     }
 
     //??為啥這樣可以
