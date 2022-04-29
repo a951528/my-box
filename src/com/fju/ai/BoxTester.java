@@ -40,9 +40,6 @@ public class BoxTester {
         int width = Integer.parseInt(scanner.next());
         System.out.println("Please enter object's height: ");
         int height = Integer.parseInt(scanner.next());
-        /*int length=8;
-        int width=8;
-        int height=8;*/  //<<測試用
 
         for (Box box : boxes) {
             if (box.isFit(length, width, height)) {
